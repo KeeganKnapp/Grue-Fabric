@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.spirit.arms": {
+		"animation.spirit.ambient": {
 			"loop": true,
 			"animation_length": 5,
 			"bones": {
@@ -18,8 +18,19 @@
 						"2.5": [-5, 0, 0],
 						"5.0": [5, 0, 0]
 					}
+				},
+				"legs": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [22.5, 0, 0],
+						"2.0": [0, 0, 0],
+						"3.0": [22.5, 0, 0],
+						"4.0": [0, 0, 0],
+						"5.0": [22.5, 0, 0]
+					}
 				}
 			}
 		}
-	}
+	},
+	"geckolib_format_version": 2
 }

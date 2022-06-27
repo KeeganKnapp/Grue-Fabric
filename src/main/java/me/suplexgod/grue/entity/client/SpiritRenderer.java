@@ -4,12 +4,11 @@ import me.suplexgod.grue.Grue;
 import me.suplexgod.grue.entity.custom.SpiritEntity;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib3.model.AnimatedGeoModel;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 
-public class GrueRenderer extends GeoEntityRenderer<SpiritEntity> {
-    public GrueRenderer(EntityRendererFactory.Context ctx) {
-        super(ctx, new GrueModel());
+public class SpiritRenderer extends GeoEntityRenderer<SpiritEntity> {
+    public SpiritRenderer(EntityRendererFactory.Context ctx) {
+        super(ctx, new SpiritModel());
     }
 
     @Override

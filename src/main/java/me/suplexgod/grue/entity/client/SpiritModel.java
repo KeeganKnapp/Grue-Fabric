@@ -3,12 +3,9 @@ package me.suplexgod.grue.entity.client;
 import me.suplexgod.grue.Grue;
 import me.suplexgod.grue.entity.custom.SpiritEntity;
 import net.minecraft.util.Identifier;
-import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
-import software.bernie.geckolib3.core.processor.IBone;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
-import software.bernie.geckolib3.model.provider.data.EntityModelData;
 
-public class GrueModel extends AnimatedGeoModel<SpiritEntity> {
+public class SpiritModel extends AnimatedGeoModel<SpiritEntity> {
     @Override
     public Identifier getModelLocation(SpiritEntity object) {
         return new Identifier(Grue.MOD_ID, "geo/spirit.geo.json");

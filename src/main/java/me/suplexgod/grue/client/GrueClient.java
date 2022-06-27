@@ -1,7 +1,7 @@
 package me.suplexgod.grue.client;
 
 import me.suplexgod.grue.entity.ModEntities;
-import me.suplexgod.grue.entity.client.GrueRenderer;
+import me.suplexgod.grue.entity.client.SpiritRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 
@@ -10,7 +10,7 @@ public class GrueClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
-        EntityRendererRegistry.register(ModEntities.SPIRIT, GrueRenderer::new);
+        EntityRendererRegistry.register(ModEntities.SPIRIT, SpiritRenderer::new);
 
 
     }
